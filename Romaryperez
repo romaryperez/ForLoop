@@ -1,0 +1,23 @@
+/*Romary Perez
+For Loop
+03/08/19
+*/
+
+#include "pch.h"
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{ 
+	char const * alphabet = "abcdefghijklmnopqrstuvwxyz";
+
+	for (char const * a = alphabet; *a; ++a)
+
+	{
+		char c = *a;
+	}
+	cout << a + "\n";
+
+	return 0;
+}
